@@ -7,11 +7,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { environment } from 'src/environments/environment';
 import { EmployeesComponent } from './employees/employees.component';
+import { EmployeeComponent } from './employees/employee/employee.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EmployeesComponent
+    EmployeesComponent,
+    EmployeeComponent
   ],
   imports: [
     BrowserModule,
